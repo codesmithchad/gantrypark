@@ -9,13 +9,8 @@ import SwiftUI
 
 struct MyPageView: View {
     var body: some View {
-        NavigationView {
-            Text("Settings")
-                .navigationTitle("Text")
-                .navigationBarItems(trailing: Button("set"){
-
-                })
-                .navigationBarTitleDisplayMode(.inline)
+        NavigationLink(destination: SettingsView()) {
+            Text("settings")
         }
     }
 }
