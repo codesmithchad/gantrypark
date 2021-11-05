@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD9F70D2734F1F800B9801C /* GantryParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F70C2734F1F800B9801C /* GantryParkApp.swift */; };
+		BFD9F70F2734F1F800B9801C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F70E2734F1F800B9801C /* ContentView.swift */; };
+		BFD9F7112734F1FB00B9801C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD9F7102734F1FB00B9801C /* Assets.xcassets */; };
+		BFD9F7142734F1FB00B9801C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD9F7132734F1FB00B9801C /* Preview Assets.xcassets */; };
+		BFD9F7162734F1FB00B9801C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7152734F1FB00B9801C /* Persistence.swift */; };
+		BFD9F7192734F1FB00B9801C /* GantryPark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7172734F1FB00B9801C /* GantryPark.xcdatamodeld */; };
+		BFD9F7232734F1FC00B9801C /* GantryParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7222734F1FC00B9801C /* GantryParkTests.swift */; };
+		BFD9F72D2734F1FC00B9801C /* GantryParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F72C2734F1FC00B9801C /* GantryParkUITests.swift */; };
+		BFD9F72F2734F1FC00B9801C /* GantryParkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F72E2734F1FC00B9801C /* GantryParkUITestsLaunchTests.swift */; };
+		BFD9F73E2734F23000B9801C /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F73D2734F23000B9801C /* LogInView.swift */; };
+		BFD9F7422734F26A00B9801C /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7412734F26A00B9801C /* IntroView.swift */; };
+		BFD9F7442734F2B000B9801C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD9F7432734F2B000B9801C /* LaunchScreen.storyboard */; };
+		BFD9F7462734F57E00B9801C /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7452734F57E00B9801C /* LogInViewModel.swift */; };
+		BFD9F7482734F97700B9801C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7472734F97700B9801C /* HomeView.swift */; };
+		BFD9F74A2734F98000B9801C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7492734F98000B9801C /* HomeViewModel.swift */; };
+		BFD9F75027351D3F00B9801C /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F74F27351D3F00B9801C /* TabBarView.swift */; };
+		BFD9F7562735211B00B9801C /* Tab1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7552735211B00B9801C /* Tab1View.swift */; };
+		BFD9F7582735212400B9801C /* Tab2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F7572735212400B9801C /* Tab2View.swift */; };
+		BFD9F75B273521C300B9801C /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F75A273521C300B9801C /* MyPageView.swift */; };
+		BFD9F75D2735222200B9801C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD9F75C2735222200B9801C /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD9F71F2734F1FC00B9801C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD9F7012734F1F800B9801C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD9F7082734F1F800B9801C;
+			remoteInfo = GantryPark;
+		};
+		BFD9F7292734F1FC00B9801C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD9F7012734F1F800B9801C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD9F7082734F1F800B9801C;
+			remoteInfo = GantryPark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFD9F7092734F1F800B9801C /* GantryPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GantryPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD9F70C2734F1F800B9801C /* GantryParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GantryParkApp.swift; sourceTree = "<group>"; };
+		BFD9F70E2734F1F800B9801C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFD9F7102734F1FB00B9801C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD9F7132734F1FB00B9801C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFD9F7152734F1FB00B9801C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BFD9F7182734F1FB00B9801C /* GantryPark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GantryPark.xcdatamodel; sourceTree = "<group>"; };
+		BFD9F71E2734F1FC00B9801C /* GantryParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GantryParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD9F7222734F1FC00B9801C /* GantryParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GantryParkTests.swift; sourceTree = "<group>"; };
+		BFD9F7282734F1FC00B9801C /* GantryParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GantryParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD9F72C2734F1FC00B9801C /* GantryParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GantryParkUITests.swift; sourceTree = "<group>"; };
+		BFD9F72E2734F1FC00B9801C /* GantryParkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GantryParkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFD9F73D2734F23000B9801C /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		BFD9F7412734F26A00B9801C /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		BFD9F7432734F2B000B9801C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD9F7452734F57E00B9801C /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		BFD9F7472734F97700B9801C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BFD9F7492734F98000B9801C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BFD9F74F27351D3F00B9801C /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		BFD9F7552735211B00B9801C /* Tab1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1View.swift; sourceTree = "<group>"; };
+		BFD9F7572735212400B9801C /* Tab2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2View.swift; sourceTree = "<group>"; };
+		BFD9F75A273521C300B9801C /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		BFD9F75C2735222200B9801C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD9F7062734F1F800B9801C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9F71B2734F1FC00B9801C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9F7252734F1FC00B9801C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD9F7002734F1F800B9801C = {
+			isa = PBXGroup;
+			children = (
+				BFD9F70B2734F1F800B9801C /* GantryPark */,
+				BFD9F7212734F1FC00B9801C /* GantryParkTests */,
+				BFD9F72B2734F1FC00B9801C /* GantryParkUITests */,
+				BFD9F70A2734F1F800B9801C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD9F70A2734F1F800B9801C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F7092734F1F800B9801C /* GantryPark.app */,
+				BFD9F71E2734F1FC00B9801C /* GantryParkTests.xctest */,
+				BFD9F7282734F1FC00B9801C /* GantryParkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD9F70B2734F1F800B9801C /* GantryPark */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F7592735214B00B9801C /* etc */,
+				BFD9F752273520FC00B9801C /* Common */,
+				BFD9F74B27351BCB00B9801C /* LogIn */,
+				BFD9F74C27351BDB00B9801C /* Home */,
+				BFD9F7552735211B00B9801C /* Tab1View.swift */,
+				BFD9F7572735212400B9801C /* Tab2View.swift */,
+				BFD9F75A273521C300B9801C /* MyPageView.swift */,
+				BFD9F75C2735222200B9801C /* SettingsView.swift */,
+				BFD9F751273520E000B9801C /* Asset */,
+				BFD9F7122734F1FB00B9801C /* Preview Content */,
+			);
+			path = GantryPark;
+			sourceTree = "<group>";
+		};
+		BFD9F7122734F1FB00B9801C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F7132734F1FB00B9801C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFD9F7212734F1FC00B9801C /* GantryParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F7222734F1FC00B9801C /* GantryParkTests.swift */,
+			);
+			path = GantryParkTests;
+			sourceTree = "<group>";
+		};
+		BFD9F72B2734F1FC00B9801C /* GantryParkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F72C2734F1FC00B9801C /* GantryParkUITests.swift */,
+				BFD9F72E2734F1FC00B9801C /* GantryParkUITestsLaunchTests.swift */,
+			);
+			path = GantryParkUITests;
+			sourceTree = "<group>";
+		};
+		BFD9F74B27351BCB00B9801C /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F73D2734F23000B9801C /* LogInView.swift */,
+				BFD9F7452734F57E00B9801C /* LogInViewModel.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		BFD9F74C27351BDB00B9801C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F7472734F97700B9801C /* HomeView.swift */,
+				BFD9F7492734F98000B9801C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BFD9F751273520E000B9801C /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F7102734F1FB00B9801C /* Assets.xcassets */,
+				BFD9F7432734F2B000B9801C /* LaunchScreen.storyboard */,
+				BFD9F7152734F1FB00B9801C /* Persistence.swift */,
+				BFD9F7172734F1FB00B9801C /* GantryPark.xcdatamodeld */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		BFD9F752273520FC00B9801C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F70C2734F1F800B9801C /* GantryParkApp.swift */,
+				BFD9F7412734F26A00B9801C /* IntroView.swift */,
+				BFD9F74F27351D3F00B9801C /* TabBarView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BFD9F7592735214B00B9801C /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9F70E2734F1F800B9801C /* ContentView.swift */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD9F7082734F1F800B9801C /* GantryPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD9F7322734F1FC00B9801C /* Build configuration list for PBXNativeTarget "GantryPark" */;
+			buildPhases = (
+				BFD9F7052734F1F800B9801C /* Sources */,
+				BFD9F7062734F1F800B9801C /* Frameworks */,
+				BFD9F7072734F1F800B9801C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GantryPark;
+			productName = GantryPark;
+			productReference = BFD9F7092734F1F800B9801C /* GantryPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD9F71D2734F1FC00B9801C /* GantryParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD9F7352734F1FC00B9801C /* Build configuration list for PBXNativeTarget "GantryParkTests" */;
+			buildPhases = (
+				BFD9F71A2734F1FC00B9801C /* Sources */,
+				BFD9F71B2734F1FC00B9801C /* Frameworks */,
+				BFD9F71C2734F1FC00B9801C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD9F7202734F1FC00B9801C /* PBXTargetDependency */,
+			);
+			name = GantryParkTests;
+			productName = GantryParkTests;
+			productReference = BFD9F71E2734F1FC00B9801C /* GantryParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFD9F7272734F1FC00B9801C /* GantryParkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD9F7382734F1FC00B9801C /* Build configuration list for PBXNativeTarget "GantryParkUITests" */;
+			buildPhases = (
+				BFD9F7242734F1FC00B9801C /* Sources */,
+				BFD9F7252734F1FC00B9801C /* Frameworks */,
+				BFD9F7262734F1FC00B9801C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD9F72A2734F1FC00B9801C /* PBXTargetDependency */,
+			);
+			name = GantryParkUITests;
+			productName = GantryParkUITests;
+			productReference = BFD9F7282734F1FC00B9801C /* GantryParkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD9F7012734F1F800B9801C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BFD9F7082734F1F800B9801C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BFD9F71D2734F1FC00B9801C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BFD9F7082734F1F800B9801C;
+					};
+					BFD9F7272734F1FC00B9801C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BFD9F7082734F1F800B9801C;
+					};
+				};
+			};
+			buildConfigurationList = BFD9F7042734F1F800B9801C /* Build configuration list for PBXProject "GantryPark" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD9F7002734F1F800B9801C;
+			productRefGroup = BFD9F70A2734F1F800B9801C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD9F7082734F1F800B9801C /* GantryPark */,
+				BFD9F71D2734F1FC00B9801C /* GantryParkTests */,
+				BFD9F7272734F1FC00B9801C /* GantryParkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD9F7072734F1F800B9801C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD9F7442734F2B000B9801C /* LaunchScreen.storyboard in Resources */,
+				BFD9F7142734F1FB00B9801C /* Preview Assets.xcassets in Resources */,
+				BFD9F7112734F1FB00B9801C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9F71C2734F1FC00B9801C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9F7262734F1FC00B9801C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD9F7052734F1F800B9801C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD9F7462734F57E00B9801C /* LogInViewModel.swift in Sources */,
+				BFD9F7582735212400B9801C /* Tab2View.swift in Sources */,
+				BFD9F75B273521C300B9801C /* MyPageView.swift in Sources */,
+				BFD9F74A2734F98000B9801C /* HomeViewModel.swift in Sources */,
+				BFD9F7422734F26A00B9801C /* IntroView.swift in Sources */,
+				BFD9F73E2734F23000B9801C /* LogInView.swift in Sources */,
+				BFD9F7162734F1FB00B9801C /* Persistence.swift in Sources */,
+				BFD9F75D2735222200B9801C /* SettingsView.swift in Sources */,
+				BFD9F70F2734F1F800B9801C /* ContentView.swift in Sources */,
+				BFD9F7482734F97700B9801C /* HomeView.swift in Sources */,
+				BFD9F7192734F1FB00B9801C /* GantryPark.xcdatamodeld in Sources */,
+				BFD9F7562735211B00B9801C /* Tab1View.swift in Sources */,
+				BFD9F75027351D3F00B9801C /* TabBarView.swift in Sources */,
+				BFD9F70D2734F1F800B9801C /* GantryParkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9F71A2734F1FC00B9801C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD9F7232734F1FC00B9801C /* GantryParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD9F7242734F1FC00B9801C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD9F72D2734F1FC00B9801C /* GantryParkUITests.swift in Sources */,
+				BFD9F72F2734F1FC00B9801C /* GantryParkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD9F7202734F1FC00B9801C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD9F7082734F1F800B9801C /* GantryPark */;
+			targetProxy = BFD9F71F2734F1FC00B9801C /* PBXContainerItemProxy */;
+		};
+		BFD9F72A2734F1FC00B9801C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD9F7082734F1F800B9801C /* GantryPark */;
+			targetProxy = BFD9F7292734F1FC00B9801C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFD9F7302734F1FC00B9801C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFD9F7312734F1FC00B9801C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD9F7332734F1FC00B9801C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GantryPark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GantryPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD9F7342734F1FC00B9801C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GantryPark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GantryPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFD9F7362734F1FC00B9801C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GantryParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GantryPark.app/GantryPark";
+			};
+			name = Debug;
+		};
+		BFD9F7372734F1FC00B9801C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GantryParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GantryPark.app/GantryPark";
+			};
+			name = Release;
+		};
+		BFD9F7392734F1FC00B9801C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GantryParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GantryPark;
+			};
+			name = Debug;
+		};
+		BFD9F73A2734F1FC00B9801C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.GantryParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GantryPark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD9F7042734F1F800B9801C /* Build configuration list for PBXProject "GantryPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD9F7302734F1FC00B9801C /* Debug */,
+				BFD9F7312734F1FC00B9801C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD9F7322734F1FC00B9801C /* Build configuration list for PBXNativeTarget "GantryPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD9F7332734F1FC00B9801C /* Debug */,
+				BFD9F7342734F1FC00B9801C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD9F7352734F1FC00B9801C /* Build configuration list for PBXNativeTarget "GantryParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD9F7362734F1FC00B9801C /* Debug */,
+				BFD9F7372734F1FC00B9801C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD9F7382734F1FC00B9801C /* Build configuration list for PBXNativeTarget "GantryParkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD9F7392734F1FC00B9801C /* Debug */,
+				BFD9F73A2734F1FC00B9801C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFD9F7172734F1FB00B9801C /* GantryPark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFD9F7182734F1FB00B9801C /* GantryPark.xcdatamodel */,
+			);
+			currentVersion = BFD9F7182734F1FB00B9801C /* GantryPark.xcdatamodel */;
+			path = GantryPark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFD9F7012734F1F800B9801C /* Project object */;
+}
