@@ -9,7 +9,14 @@ import SwiftUI
 
 struct Tab1View: View {
     var body: some View {
-        Text("Hello, Tab1!")
+        ScrollView {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 80))]) {
+                ForEach(0..<40) { item in
+                    Rectangle()
+                        .frame(height: 100)
+                }
+            }
+        }
     }
 }
 
